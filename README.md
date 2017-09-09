@@ -6,7 +6,7 @@ We use GitHub for collaborating on our new.nox project. This includes sharing of
 To be able to work on this project, you have to sign up to GitHub and join the NoxAG organisation.
 
 
-### What the fuck is GitHub?
+### What is GitHub?
 For everyone that hasn't heard of GitHub or doesn't know what exactly is GitHub for, here are a view videos and websites that explain the main concept:
 
 - Introduction Video: [Idea of GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E)
