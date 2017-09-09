@@ -80,6 +80,8 @@ As IDE I would advise you to use [Eclipse Oxygen](http://www.eclipse.org/downloa
 
 ### Code Formatting
 To make sure we all follow the same code formatting conventions, you should import this [EPF-File](https://github.com/NoxAG/Developer-Guide/blob/master/eclipse-format-settings.epf) into [eclipse](https://help.eclipse.org/neon/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftimpandexp.htm).
+After you imported the new code formatting preferences, you should also activate the save action for code formatting.
+To do this go to *Window* -> *Preferences* -> *Java* -> *Editor* -> *Save Actions*. There you need to activate "Format source code" and "Organzie imports".
 
 ### Github plugin (EGit)
 This plugin is already included in *Ecplipse Oxygen*. Unfortunatly importing gradle projects via the EGit plugin seems to be broken in some way. You may try, but for now I recommend you either use Git from the CommandLine or from the Git Desktop Application.
