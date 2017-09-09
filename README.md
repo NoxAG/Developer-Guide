@@ -78,15 +78,19 @@ The workflow is as follows:
 ## Ecplise
 As IDE I would advise you to use [Eclipse Oxygen](http://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/oxygenr) because it already contains most of the features we need for our development (EGit, Maven, etc.).
 
-### Download and Installation
-
 ### Automated code formatting
 
-### Github Plugin
+### Github plugin (EGit)
+This plugin is already included in *Ecplipse Oxygen*. Unfortunatly importing gradle projects via the EGit plugin seems to be broken in some way. You may try, but for now I recommend you either use Git from the CommandLine or from the Git Desktop Application.
 
 ### Sonarqube Plugin
+SonarQube is an open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells and security vulnerabilities. It offers reports on duplicated code, coding standards, unit tests, code coverage, code complexity, comments, bugs, and security vulnerabilities.
+
+To use this plugin, you need to install it via the Ecplise Marketplace. To do that, open Ecplise and go to *Help* -> *Eclipse Marketpalce*.
+Than use the searchbar to find "*SonarLint 3.2.0*" and click *install*. As soon as the installation has finished you need to restart eclipse. After that you can use the features of sonarqube by right clicking on you project and choosing *SonarLint* -> *Analyze*
 
 ### Gradle
+We use Gradle as dependency manager. But because most of the configuration has to be made upfront and only by one person, there is no need to explain the workings of gradle at this point.
 
 ## Java
 You should also make sure that you have [Java SE Development Kit 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) installed.
