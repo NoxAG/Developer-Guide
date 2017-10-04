@@ -7,7 +7,7 @@ To be able to work on this project, you have to sign up to GitHub and join the N
 
 
 ### What is GitHub?
-For everyone that hasn't heard of GitHub or doesn't know what exactly is GitHub for, here are a view videos and websites that explain the main concept:
+For everyone that hasn't heard of GitHub or doesn't know what exactly is GitHub for, here are a few videos and websites that explain the main concept:
 
 - Introduction Video: [Idea of GitHub](https://www.youtube.com/watch?v=w3jLJU7DT5E)
 - Visual Overview Video showing the most important Git commands: [GIT Workflow - Software Development Process](https://www.youtube.com/watch?v=3a2x1iJFJWc)
