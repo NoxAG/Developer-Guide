@@ -14,9 +14,9 @@ For everyone that hasn't heard of GitHub or doesn't know what exactly is GitHub 
 - Video Playlist with videos for all the important Git commands: [Github and Git Foundations](https://www.youtube.com/playlist?list=PL0lo9MOBetEHhfG9vJzVCTiDYcbhAiEqL)
 -An interactive tutorial to learn every important aspect of Git: [The Interativ Guid to GitHub](http://learngitbranching.js.org/)
 
-*The interactive tutorial is **for everyone** and sould at least be completed partially.*
+*The interactive tutorial is **for everyone** and should at least be completed partially.*
 
-Here a short list of chapters that are essential for understanding and using git:
+Here is a short list of chapters that are essential for understanding and using git:
 
 - Main
   - Einführung
@@ -60,14 +60,14 @@ We'll only have one main repository containg the complete application.
 The git pull request workflow is one way of collaborating with git.
 
 The workflow is as follows:
-1. You want to fix a bug or add a feature to an repository
+1. You want to fix a bug or add a feature to a repository
 2. You either already have the repository cloned on your computer or you have to clone it to your computer
-3. You create a new branch with a name like "fix/<bugname>" or "feature/<featurename>" (most of the time, the parentbranch should be the master branch)
+3. You create a new branch with a name like "fix/<bugname>" or "feature/<featurename>" (usually the master branch should be the parent branch)
 4. You checkout your new branch
-5. You add your code to your branch by committing small chunks of it that each have a detailed and meandingful description of what has been changed
+5. You add your code to your branch by committing small chunks of it that each have a meandingful description of what has been changed
 6. You push your commits into the remote repositoy
-7. You open a pull request and ask for a code review by Person B
-8. Person B reviews your code. This includes
+7. You open a pull request and ask for a code review by another person
+8. This person then reviews your code. This includes
     - requesting improvements
     - requesting clarification
     - requesting discussion (or another review by someone else)
