@@ -54,7 +54,7 @@ Here is the [Link](https://help.github.com/desktop/guides/getting-started/instal
 ### How we use GitHub
 
 #### Structure of our projects
-To make sure that we can all work independently on small parts of our project without interfering in each others work, we are going to devide our project in multiple repositorys. To make this work, we will have one "NewNox-Application" repository wich is going to represent the main repository of our project. This repository depends on all the other repositors like "NewNox-Textanalyzer" or "NewNox-GUI" and all the others that we may have. Furthermore we are going to have one "NewNox-Common" repository as dependency to all other repositories that is going to contain all the classes and methods that need to be accessed by every or nearly every repository. In an optimal way this repository is going to be empty and can later be discarded.
+We'll only have one main repository containg the complete application. 
 
 #### The Git pull request workflow
 The git pull request workflow is one way of collaborating with git.
@@ -85,6 +85,13 @@ To do this go to *Window* -> *Preferences* -> *Java* -> *Editor* -> *Save Action
 
 ### Github plugin (EGit)
 This plugin is already included in *Ecplipse Oxygen*. Unfortunatly importing gradle projects via the EGit plugin seems to be broken in some way. You may try, but for now I recommend you either use Git from the CommandLine or from the Git Desktop Application.
+
+#### Workaround
+After some trial and error I found out, that you can do the following to make EGit work properly:
+1. Clone the repository you want to collaborate via [GitHub Desktop Application](https://github.com/NoxAG/Developer-Guide#setting-up-the-github-desktop-application) or the Git Commandline
+2. Open Eclipse
+3. Go to *File* -> *Import...* and than search for *Existing Gradle Project*. Then you can choose the project path of the repository you cloned and import that project.
+4. Now you can use all features provided by EGit
 
 ### Sonarqube Plugin
 SonarQube is an open source platform for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells and security vulnerabilities. It offers reports on duplicated code, coding standards, unit tests, code coverage, code complexity, comments, bugs, and security vulnerabilities.
